@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://wqmslx.github.io/sitemap.xml
+Sitemap: https://https://github.com/WQMSLX/wqmslx.github.io/sitemap.xml
