@@ -36,7 +36,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/wqmslx",
       BiliBili: "https://space.bilibili.com/9632192",
-      LeetCode: "https://leetcode.cn/u/bear-16/", "/.vuepress/public/assets/icon/leetcode-dark-cn.svg"],
+      LeetCode: {link:"https://leetcode.cn/u/bear-16/", icon:"/.vuepress/public/assets/icon/leetcode-dark-cn.svg"},
     },
   },
 
