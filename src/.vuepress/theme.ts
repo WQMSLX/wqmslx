@@ -13,9 +13,9 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/assets/icon/ms-icon-144.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "WQMSLX/wqmslx.github.io",
 
   docsDir: "src",
 
@@ -36,7 +36,7 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/wqmslx",
       BiliBili: "https://space.bilibili.com/9632192",
-      LeetCode: {link:"https://leetcode.cn/u/bear-16/", icon:"/.vuepress/public/assets/icon/leetcode-dark-cn.svg"},
+      LeetCode: { icon:"/assets/images/cover1.jpg",link:"https://leetcode.cn/u/bear-16/" }
     },
   },
 
