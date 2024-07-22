@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import { Sidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://https://github.com/WQMSLX/wqmslx.github.io",
@@ -23,7 +23,7 @@ export default hopeTheme({
   navbar,
 
   // 侧边栏
-  sidebar,
+  sidebar:Sidebar,
 
   // 页脚
   footer: "默认页脚",
