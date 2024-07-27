@@ -23,7 +23,7 @@ export default hopeTheme({
   navbar,
 
   // 侧边栏
-  sidebar:Sidebar,
+  sidebar: Sidebar,
 
   // 页脚
   footer: "默认页脚",
@@ -36,7 +36,10 @@ export default hopeTheme({
     medias: {
       GitHub: "https://github.com/wqmslx",
       BiliBili: "https://space.bilibili.com/9632192",
-      LeetCode: { icon:"/assets/images/cover1.jpg",link:"https://leetcode.cn/u/bear-16/" }
+      LeetCode: {
+        icon: "/assets/images/cover1.jpg",
+        link: "https://leetcode.cn/u/bear-16/",
+      },
     },
   },
 
@@ -102,10 +105,7 @@ export default hopeTheme({
       tabs: true,
       tasklist: true,
       vPre: true,
-
-  
+     
     },
-
-
   },
 });
