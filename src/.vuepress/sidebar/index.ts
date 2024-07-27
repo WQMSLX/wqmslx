@@ -1,9 +1,11 @@
 import { sidebar } from "vuepress-theme-hope";
-import { studySidebar } from "./study"
-// import { workTaskSidebar } from "./work-task"
-// import { resourceSidebar } from "./resource"
 
+import { studySidebar } from "./study.js";
+
+import { projectSidebar } from "./project.js";
+import { developSidebar } from "./develop.js";
 export const Sidebar = sidebar({
-  '/study/': studySidebar,
-
+  "/study/": studySidebar,
+  "/develop/": developSidebar,
+  "/project/": projectSidebar,
 });
