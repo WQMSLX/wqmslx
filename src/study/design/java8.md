@@ -2,8 +2,8 @@
 title: 设计模式
 index: true
 icon: laptop-code
-category:
-  - 使用指南
----
 
+---
+[[toc]]
+@[code](../../../package.json)
 <Catalog />
