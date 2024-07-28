@@ -3,7 +3,7 @@ import { arraySidebar, SidebarArrayOptions } from "vuepress-theme-hope";
 export const projectSidebar: SidebarArrayOptions = arraySidebar([
   {
     text: "数据库",
-    icon: "sql",
+    icon: "database",
     collapsible: true,
     link: "sql/",
     prefix: "sql/",
@@ -11,14 +11,10 @@ export const projectSidebar: SidebarArrayOptions = arraySidebar([
   },
   {
     text: "后端开发",
-    icon: "java",
+    icon: "code",
     collapsible: true,
-    children: "structure",
-  },
-  {
-    text: "设计模式",
-    icon: "design",
-    collapsible: true,
+    link: "backend/",
+    prefix: "backend/",
     children: "structure",
   },
 ]);

@@ -1,9 +1,10 @@
 ---
 title: 设计模式
 index: true
-icon: laptop-code
+icon: code
 category:
   - 使用指南
 ---
+[[toc]]
 
 <Catalog />

@@ -1,7 +1,7 @@
 ---
 title: 学习笔记
-index: false
-icon: laptop-code
+index: true
+icon: mark
 category:
   - 使用指南
 ---
