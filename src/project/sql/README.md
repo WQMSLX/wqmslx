@@ -1,6 +1,6 @@
 --- 
 title: 数据库
-index: true
+index: false
 icon: database
 
 ---

@@ -1,6 +1,6 @@
 ---
 title: 开发日记
-index: true
+index: false
 icon: code
 category:
   - 项目开发

@@ -1,6 +1,6 @@
 ---
 title: java开发
-index: true
+index: false
 icon: mark
 category:
   - 学习日记

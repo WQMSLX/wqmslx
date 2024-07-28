@@ -1,6 +1,6 @@
 --- 
 title: 前端开发
-index: true
+index: false
 icon: code
 category:
   - 前端开发
