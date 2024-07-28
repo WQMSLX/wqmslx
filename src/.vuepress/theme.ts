@@ -81,8 +81,8 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
-      plantuml: true,
-      spoiler: true,
+      // plantuml: true,
+      // spoiler: true,
       stylize: [
         {
           matcher: "Recommended",
@@ -99,7 +99,7 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
-      tasklist: true,
+      // tasklist: true,
       vPre: true,
     },
   },

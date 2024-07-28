@@ -2,7 +2,7 @@ import { arraySidebar, SidebarArrayOptions } from "vuepress-theme-hope";
 
 export const studySidebar: SidebarArrayOptions = arraySidebar([
   {
-    text: "后端开发",
+    text: "java开发",
     icon: "java",
     collapsible: true,
     link: "java/",

@@ -1,9 +1,8 @@
----
-title: java开发
+--- 
+title: 学习笔记
 index: false
-icon: mark
+icon: code
 category:
-  - 学习日记
+  - 学习笔记
 ---
-
-<Catalog />
+本栏主要记录并学习java开发。
