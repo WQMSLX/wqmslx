@@ -1,9 +1,9 @@
 ---
 title: 目录
 index: false
-icon: book
+icon: laptop-code
 category:
-  - 使用指南
+  - 线上问题
 ---
 
 <Catalog />
