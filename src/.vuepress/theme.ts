@@ -81,8 +81,9 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       mark: true,
-      // plantuml: true,
-      // spoiler: true,
+      plantuml: true,
+      spoiler: true,
+      markmap: true,
       stylize: [
         {
           matcher: "Recommended",
@@ -102,6 +103,8 @@ export default hopeTheme({
       tabs: true,
       // tasklist: true,
       vPre: true,
+      // 启用 GFM 警告
+      alert: true,
     },
   },
 });
