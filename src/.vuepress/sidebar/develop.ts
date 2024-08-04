@@ -8,5 +8,18 @@ export const developSidebar: SidebarArrayOptions = arraySidebar([
     prefix:"sql/",
     children: "structure",
   },
+  {
+    text: "容器",
+    collapsible: true,
+    link: "container/",
+    prefix:"container/",
+    children: [      {
+      text: "docker",
+      collapsible: true,
+      link: "docker/",
+      prefix: "docker/",
+      children: "structure",
+    },],
+  },
 
 ]);
