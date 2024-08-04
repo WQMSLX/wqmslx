@@ -8,9 +8,5 @@ export const developSidebar: SidebarArrayOptions = arraySidebar([
     prefix:"sql/",
     children: "structure",
   },
-  {
-    text: "设计模式",
-    collapsible: true,
-    children: "structure",
-  },
+
 ]);
