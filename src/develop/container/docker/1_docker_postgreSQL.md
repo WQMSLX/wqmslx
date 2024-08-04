@@ -2,7 +2,7 @@
 title: docker下载并启动PostgreSQL
 index: true
 # icon: code
-tag: docker,PostgreSQL
+tag: PostgreSQL
 star: true
 ---
 PostgreSQL是一个开源的对象关系数据库管理系统。它已经存在了 30 多年，并标榜自己是“世界上最先进的开源关系数据库”。
