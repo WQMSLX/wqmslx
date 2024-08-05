@@ -2,19 +2,17 @@ import { arraySidebar, SidebarArrayOptions } from "vuepress-theme-hope";
 
 export const projectSidebar: SidebarArrayOptions = arraySidebar([
   {
-    text: "数据库",
-    icon: "database",
+    text: "mall",
+    icon: "shop",
     collapsible: true,
-    link: "sql/",
-    prefix: "sql/",
-    children: "structure",
-  },
-  {
-    text: "后端开发",
-    icon: "code",
-    collapsible: true,
-    link: "backend/",
-    prefix: "backend/",
-    children: "structure",
-  },
+    link: "mall/",
+    prefix: "mall/",
+    children: [{
+      text: "前期准备",
+      collapsible: true,
+      link: "pre/",
+      prefix: "pre/",
+      children: "structure",
+    },]
+  }
 ]);

@@ -8,6 +8,19 @@ export const studySidebar: SidebarArrayOptions = arraySidebar([
     prefix: "java/",
     children: "structure",
   },
+  {
+    text: "容器",
+    collapsible: true,
+    link: "container/",
+    prefix:"container/",
+    children: [      {
+      text: "docker",
+      collapsible: true,
+      link: "docker/",
+      prefix: "docker/",
+      children: "structure",
+    },],
+  },
   // {
   //   text: "设计模式",
 
