@@ -37,7 +37,7 @@ export const studySidebar: SidebarArrayOptions = arraySidebar([
   //   children: "structure",
   // },
   {
-    text: "C++",
+    text: "C/C++",
     collapsible: true,
     link: "cplusplus/",
     prefix: "cplusplus/",
@@ -47,6 +47,13 @@ export const studySidebar: SidebarArrayOptions = arraySidebar([
         collapsible: true,
         link: "base/",
         prefix: "base/",
+        children: "structure",
+      },
+      {
+        text: "开发环境",
+        collapsible: true,
+        link: "env/",
+        prefix: "env/",
         children: "structure",
       },
     ],
