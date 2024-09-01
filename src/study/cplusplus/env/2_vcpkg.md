@@ -36,6 +36,9 @@ apt install gdb
 
 ### 5. cmakeList.txt
 
+安装包
+vcpkg install --triplet=x64-linux CMakeLists.txt
+使用vcpkg的install命令和--triplet选项来指定目标平台（如果需要），并且从CMakeLists.txt中自动检测依赖
 以下时学习使用的demo
 ```txt
 cmake_minimum_required(VERSION 3.20)
