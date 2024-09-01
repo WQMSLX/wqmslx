@@ -4,6 +4,7 @@ index: true
 # icon: code
 tag: C++，vcpkg，env
 star: true
+order: 2
 ---
 ## 1.安装vcpkg
 ```bash
@@ -22,13 +23,16 @@ source ~/.bashrc
 ```
 执行成功后，执行vcpkg命令，检查环境变量是否配置成功
 ## 3. 配置vscode
-setting 文件中配置：
-```bash
-# 这里环境变量生效但是获取不到路径${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake，暂时使用绝对路径
-   "cmake.configureSettings": {
+setting文件中配置如下：
+
+   这里环境变量生效但是获取不到路径`${env:VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake`，暂时使用绝对路径
+```json
+{   
+"cmake.configureSettings": {
         "CMAKE_TOOLCHAIN_FILE": "/mnt/e/Develop/vcpkg/scripts/buildsystems/vcpkg.cmake",
         "VCPKG_TARGET_TRIPLET": "x64-linux"
     }
+}
 ```
 ### 4. 安装gdb
 ```bash
